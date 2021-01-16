@@ -6,10 +6,10 @@ import boot.aws.web.dto.PostsSaveRequestDto;
 import boot.aws.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
-@RestController
 @RequiredArgsConstructor
+@RestController
 public class PostsApiController {
+
 
     private final PostsService postsService;
 

@@ -33,6 +33,4 @@ public class PostsService {
         Posts entity = postsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("no posts. id = " + id));
         return new PostsResponseDto(entity);
     }
-
-
 }
